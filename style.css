@@ -193,8 +193,12 @@ h6 {
 /* -------------------- */
 
 .contentSection {
-   margin-top: 29px; 
+   margin-top: 9px; 
    overflow: hidden;
+}
+
+.homePageSection {
+   margin-top: 20px; 
 }
 
 .homePageSection__channel {
@@ -269,10 +273,115 @@ h6 {
    margin-top: 50px;
 }
 
+/* --------------------- */
+
+.channelPageSection {
+   display: flex;
+   flex-flow: column;
+   padding: 0px 58px;
+}
+
+.chanelPage__main {
+   display: flex;
+   flex-flow: row;
+   justify-content: space-between;
+   margin-top: 24px;
+}
+
+.chanelPage__content {
+   display: flex;
+   flex-flow: row;
+}
+
+/* .chanelPage__cover img {
+   width: 100%
+} */
+
+.chanelPage__mainInfo img{
+   width: 80px;
+   height: 80px;
+}
+
+.chanelPage__content_recVideo {
+   display: flex;
+   flex-flow: row;
+}
+
+.chanelPage__content_recVideo__desc{
+   margin-left: 32px;
+   padding-top: 10px;
+}
+
+.chanelPage__mainInfo{
+   display: flex;
+   flex-flow: row;
+   align-items: center;
+}
+
+.chanelPage__mainDecrip {
+   margin-left: 14px;
+}
+
+.chanelPage__btn {
+   height: 40px;
+   width: 154px;
+   border-radius: 20px;
+   background-color: #FF0000;
+   color: white;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   border: none;
+}
+
+.chanelPage__content_menuItem {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 23px;
+   margin-right: 66px;
+}
+
+.underline{
+   position: relative;
+   color: #FF0000;
+   font-weight: 700;
+   text-decoration: none;
+}
+
+.underline::after {
+      position: absolute;
+      content: '';
+      height: 2px;
+      bottom: -4px; 
+      width: 120%;
+      background-color: #FF0000;
+      margin: 0 auto;
+		  left: -5px;
+        right: 0;
+}
+
+.chanelPage__content_menu{
+   padding: 23px 0px 58px 0px;
+}
+
+.chanelPage__videosContent {
+   margin-top: 48px;
+}
+
+
+
+/* ------------------------- */
+
+
 @media (max-width: 1439px) {
 
    .hide {
       display: none;
+   }
+
+   .searchButton {
+      padding-top: 10px;
+      margin-left: 0rem; 
    }
 }
 
@@ -280,11 +389,6 @@ h6 {
    .hideContent{
       display: none;
    }
-
-   /* .homePageSection__channel_content{
-      flex-flow: column;
-      justify-content: space-between;
-  } */
 
   .homePageSection {
    margin: 0px 15px;
@@ -298,7 +402,6 @@ h6 {
    width: 100%;
    height: 50px;
    padding: 12px 24px;
-   
    justify-content: space-between;
    font-size: 10px;
    line-height: 13px;
