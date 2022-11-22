@@ -12,7 +12,7 @@
    <header class="header">
       <div class="header__main"> 
          <div class="header__main_info"> 
-            <a class="header__main_info__menu">
+            <a class="header__main_info__menu hidden419">
                <img src="./assets/icons/header_navMenu.svg" width="20" height="17" alt="nav">
             </a>
             <a class="header__main_info__logo">
@@ -20,14 +20,14 @@
             </a>
          </div>
          <div class="header__main_search"> 
-               <input class="searchInput" type="text" name="searchInput" placeholder="Search" value="" />
+               <input class="searchInput hide" type="text" name="searchInput" placeholder="Search" value="" />
                <button class="searchButton" type="submit" name="searchButton">
                   <img src="./assets/icons/header_search.svg" width="19" height="19" alt="search">
                </button>
          </div>
       </div>
       <div class="header__menu"> 
-         <div class="header__menu_icons"> 
+         <div class="header__menu_icons hidden419"> 
             <a class="header__menu_icons__icon">
                <img src="./assets/icons/header_notifications.svg" width="27" height="20" alt="video">
             </a>
@@ -49,54 +49,58 @@
    <main>
       <div class="sidebar">
          <div class="sidebar__buttons">
-            <a class="sidebar__buttons_btn">
+            <a class="sidebar__buttons_btn mr47">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/home.svg" width="20" height="19" alt="nav">
                Home
             </a>
-            <a class="sidebar__buttons_btn">
+            
+            <a class="sidebar__buttons_btn mr30">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/trending.svg" width="16" height="21" alt="nav">
                Trending
             </a>
-            <a class="sidebar__buttons_btn">
+            <a class="sidebar__buttons_btn mr35">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/subscriptions.svg" width="18" height="18" alt="nav">
                Subscriptions
             </a>
-         <div class="sidebar__buttons_more">
-            <a class="sidebar__buttons_btn">
+         <div class="sidebar__buttons_more ">
+            <a class="sidebar__buttons_btn ml35">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/library.svg" width="20" height="16" alt="nav">
                Library
             </a>
-            <a class="sidebar__buttons_btn">
+
+           <div class="hideContent">
+            <a class="sidebar__buttons_btn ">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/histiry.svg" width="20" height="18" alt="nav">
                History
             </a>
-            <a class="sidebar__buttons_btn">
+            <a class="sidebar__buttons_btn ">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/watchlater.svg" width="17" height="19" alt="nav">
                Watch later
             </a>
-            <a class="sidebar__buttons_btn">
+            <a class="sidebar__buttons_btn ">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/fav.svg" width="19" height="18" alt="nav">
                Favourites
             </a>
-            <a class="sidebar__buttons_btn">
+            <a class="sidebar__buttons_btn ">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/liked.svg" width="18" height="17" alt="nav">
                Liked videos
             </a>
-            <a class="sidebar__buttons_btn">
+            <a class="sidebar__buttons_btn ">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/music.svg" width="18" height="20" alt="nav">
                Music
             </a>
-            <a class="sidebar__buttons_btn">
+            <a class="sidebar__buttons_btn ">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/games.svg" width="22" height="16" alt="nav">
                Games
             </a>
-            <a class="sidebar__buttons_btn">
+            <a class="sidebar__buttons_btn ">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/more.svg" width="14" height="8" alt="nav">
                Show more
             </a>
            </div>
+           </div>
          </div>
-         <div class="sidebar__subscriptions">
+         <div class="sidebar__subscriptions hideContent">
             <h3 class="sidebar__subscriptions_h3">Subscriptions</h3>
             <a class="sidebar__subscriptions_channel">
                <img class="sidebar__subscriptions_channelimg" src="./assets/avatars/userpic.svg" width="26" height="26" alt="pic">
@@ -123,7 +127,7 @@
                Leah Berry
             </a>
          </div>
-         <div class="sidebar__footer">
+         <div class="sidebar__footer hideContent">
             <a class="sidebar__buttons_btn">
                <img class="sidebar__buttons_btnimg" src="./assets/icons/settings.svg" width="19" height="20" alt="nav">
                Settings
@@ -136,13 +140,13 @@
          <section class="homePageSection">
             <div class="homePageSection__channel">
                <div class="homePageSection__channel_main">
-                  <div class="homePageSection__channel_mainInfo">
+                  <div class="homePageSection__channel_mainInfo hidden419">
                      <a class="channel_mainInfo">
                         <img class="channel_mainInfo__img" src="./assets/avatars/userpic.svg" width="50" height="50" alt="nav">
                         <h4>Dollie Blair</h4>
                      </a>
                   </div>
-                  <div class="sliderBtn">
+                  <div class="sliderBtn hideContent">
                      <img class="sliderBtn_btn" src="./assets/icons/Left.svg" width="28" height="28" alt="nav">
                      <img class="sliderBtn_btn" src="./assets/icons/Right.svg" width="28" height="28" alt="nav">
                   </div>
@@ -230,11 +234,11 @@
                </div>
             </div>
 
-            <div class="homePageSection__recommended">
+            <div class="homePageSection__recommended hidden419">
                <div class="homePageSection__recommended_main">
                   <div class="homePageSection__recommended_mainInfo"> 
                      <h4>Recommended</h4>
-                     <div class="sliderBtn mb">
+                     <div class="sliderBtn hideContent mb">
                         <img class="sliderBtn_btn" src="./assets/icons/Left.svg" width="28" height="28" alt="nav">
                         <img class="sliderBtn_btn" src="./assets/icons/Right.svg" width="28" height="28" alt="nav">
                      </div>
@@ -287,7 +291,7 @@
                </div>
             </div>
 
-            <div class="homePageSection__recommendedChannel">
+            <div class="homePageSection__recommendedChannel hidden419">
                <div class="homePageSection__channel_main">
                   <div class="homePageSection__channel_mainInfo">
                      <a class="channel_mainInfo">
@@ -295,7 +299,7 @@
                         <h4>Dollie Blair</h4>
                      </a>
                   </div>
-                  <div class="sliderBtn">
+                  <div class="sliderBtn hideContent">
                      <img class="sliderBtn_btn" src="./assets/icons/Left.svg" width="28" height="28" alt="nav">
                      <img class="sliderBtn_btn" src="./assets/icons/Right.svg" width="28" height="28" alt="nav">
                   </div>
