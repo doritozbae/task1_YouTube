@@ -369,6 +369,167 @@ h6 {
 }
 
 
+/* ------------------------- */
+
+.videoPageSection, .videoPageSection__mainDescriptionInfo, .videoPageSection__mainDescription_more, .row{
+   display: flex;
+   flex-flow: row;
+}
+
+.videoPageSection {
+   padding: 0px 53px 0px 80px;
+}
+
+.videoPageSection__main {
+   margin-right: 40px;
+}
+
+.video iframe {
+   height: 700px;
+   width: 1363px;
+   border-radius: 14px;
+}
+
+.videoPageSection__mainDescription_more {
+   margin-top: 30px;
+   justify-content: space-between;
+}
+
+.videoPageSection__mainDescription {
+   justify-content: space-between;
+   display: flex;
+   flex-flow: column;
+   margin-top: 16px;
+}
+
+.videoPageSection__mainDescriptionInfo {
+   margin-top: 8px;
+   justify-content: space-between;
+}
+
+.videoPageSection__mainDescriptionInfo h6 {
+   font-size: 20px;
+   line-height: 25px;
+   color: #C2C2C2;
+}
+
+.mainDescriptionInfo_btn {
+   height: 40px;
+   width: 100px;
+   border-radius: 50px; 
+   border: none;
+   font-size: 16px;
+   line-height: 20px;
+   margin-left: 7px;
+   cursor: pointer;
+   margin-top: -4px;
+}
+
+.mainDescription_btn {
+   margin-top: 8px;
+}
+
+.more_btn {
+   margin-left: 36px;
+}
+
+.line {
+   height: 1px;
+   background: #898989;
+   opacity: 0.2;
+   margin-top: 15px;
+}
+
+.videoPage__mainDecrip {
+   margin-left: 7px;
+}
+
+.videoPage__mainInfo {
+   align-items: flex-start;
+}
+
+.videoPage__mainimg {
+   margin: 8px 4px 0px -4px;
+}
+
+.videoPageSection__sidebar, .videoPageSection__sidebar_cards {
+   display: flex;
+   flex-flow: column;
+}
+
+.videoPageSection__sidebar_header{
+   display: flex;
+   flex-flow: row;
+   justify-content: space-between;
+}
+
+.contentCard_video {
+   margin: 0px 0px 22px 0px;
+}
+
+.contentCard_video img{
+   width: 367px;
+   height: 213px;
+}
+
+.videoPageSection__font {
+   font-size: 36px;
+   line-height: 45px;
+   font-weight: 700;
+   margin: 0;
+}
+
+.videoPageSection__sidebar_cards {
+   padding-top: 26px;
+   overflow: hidden;
+}
+
+.randomFont {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   margin: 0;
+}
+
+.mainDescFont {
+   font-size: 20px;
+   line-height: 25px;
+   color: #C2C2C2;
+}
+
+.videoPageHeaderFont {
+   margin: 8px 0px;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 33px;
+}
+
+.contentCard_description h6 {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 23px;
+   margin-top: 4px;
+}
+
+.row {
+   padding-top: 20px;
+}
+
+.circle {
+   border-radius: 50%;
+   width: 24px;
+   height: 24px;
+   background: #2196F3;
+   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.237602);
+   cursor: pointer;
+   margin-left: 29px;
+}
+
+.none {
+   display: none;
+}
 
 /* ------------------------- */
 
