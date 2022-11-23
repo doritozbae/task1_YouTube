@@ -9,7 +9,7 @@
    
 </head>
 <body>
-   <header class="header">
+   <header class="header ">
       <div class="header__main"> 
          <div class="header__main_info"> 
             <a class="header__main_info__menu hidden419">
@@ -135,9 +135,9 @@
          </div>
       </div>
 
-      <section class="contentSection">
+      <section class="contentSection ">
 
-         <!-- <section class="homePageSection">
+         <section class="homePageSection none">
             <div class="homePageSection__channel">
                <div class="homePageSection__channel_main">
                   <div class="homePageSection__channel_mainInfo hidden419">
@@ -387,9 +387,9 @@
                </div>
             </div>
             
-         </section> -->
+         </section>
       
-         <!-- <section class="channelPageSection">
+         <section class="channelPageSection none">
             <div class="chanelPage__cover">
                <img class="chanelPage__coverimg" src="./assets/content/cover.png" alt="nav">
             </div>
@@ -534,9 +534,9 @@
                   </div>
                </div>
             </div>
-         </section> -->
+         </section>
       
-         <section class="videoPageSection">
+         <section class="videoPageSection ">
             <div class="videoPageSection__main">
                <div class="videoPageSection__main_video">
                   <div class="video">
@@ -659,10 +659,17 @@
       </section>
    </main>
 
-   <footer>
+   <div class="welcomePage none">
+     <div  class="welcomePage__info"> 
+       <p> YouTube layout task</p>
+     </div>
+     <div class="welcomePage__btns">
+        <button class="welcomePage__btn welcomePage_btn1"> Home Page</button> 
+        <button class="welcomePage__btn welcomePage_btn2"> Channel Page</button> 
+        <button class="welcomePage__btn welcomePage_btn3"> Video Page</button> 
+     </div>
+   </div>
 
-   </footer>
-
-   
+   <script src="app.js"></script>
 </body>
 </html>
