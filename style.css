@@ -423,6 +423,7 @@ h6 {
 .video iframe {
    height: 700px;
    width: 1363px;
+   /* width: 100%; */
    border-radius: 14px;
 }
 
@@ -478,6 +479,10 @@ h6 {
 
 .videoPage__mainDecrip {
    margin-left: 7px;
+}
+
+.videoPage__mainDecrip h6{
+   margin-top: -6px;
 }
 
 .videoPage__mainInfo {
@@ -580,6 +585,12 @@ h6 {
       padding-top: 10px;
       margin-left: 0rem; 
    }
+
+   .video iframe {
+      width: 856px;
+      height: 460px;
+      border-radius: 0px;
+   }
 }
 
 @media (max-width: 727px) {
@@ -642,6 +653,18 @@ h6 {
    main {
       flex-flow: column;
    }
+
+   .video iframe {
+      width: 100%;
+      /* width: 556px;
+      height: 313px; */
+      border-radius: 0px;
+   }
+
+   .videoPageSection {
+      display: flex;
+      flex-flow: column;
+  }
 }
 
    /* .homePageSection__channel_content{
@@ -692,5 +715,91 @@ h6 {
       flex-flow: column;
       justify-content: space-between;
   }
+
+  .videoPageSection {
+   padding: 23px 0px 0 0;
+  }
+
+  .videoPageSection__main {
+   margin: 0;
+  }
+
+  .video iframe {
+   height: 180px;
+   width: 320px;
+   border-radius: 0px;
+}
+
+   .videoPageSection__font {
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: -7px;
+   }
+
+   .videoPageSection__mainDescriptionInfo h6{ 
+      font-size: 12px;
+      line-height: 15px;
+      margin-top: -5px;
+   }
+
+   .videoPageSection__mainDescriptionInfo_btns {
+      margin-top: 25px;
+      margin-left: -7px;
+      white-space: nowrap;
+      /* overflow: hidden; */
+   }
+
+   .videoPageSection__mainDescriptionInfo {
+      flex-flow: column;
+   }
+
+   .videoPageSection__mainDescription, .videoPageSection__sidebar, .videoPageSection__mainDescription_more {
+      padding: 0 16px;
+   }
+
+   .videoPageSection .chanelPage__mainInfo img {
+      width: 50px;
+      height: 50px;
+   }
+
+   .videoPageSection h4{
+      font-size: 16px;
+      white-space: nowrap
+   }
    
+   .mainDescription_btn .chanelPage__btn {
+      color: #FF0000;
+      background: none;
+      font-size: 16px;
+      text-align: end;
+      margin-right: 0px;
+   }
+
+   .videoPageSection__mainDescription_more {
+      align-items: center;
+   }
+
+   .videoPageSection__mainDescription_more {
+      margin-top: 11px;
+      padding: 0 0px 0 19px;
+   }
+   
+   .line {
+      margin-top: 30px;
+   }
+
+   .videoPageSection__sidebar_header {
+      align-items: center;
+      padding: 36px 0 0 0;
+   }
+
+   .randomFont {
+      font-size: 10px;
+   }
+
+   .circle {
+      width: 16px;
+      height: 16px;
+      margin-left: 24px;
+   }
 }
