@@ -4,6 +4,7 @@ const homePageSection = document.querySelector('.homePageSection');
 const channelPageSection = document.querySelector('.channelPageSection');
 const videoPageSection = document.querySelector('.videoPageSection');
 const welcomePage = document.querySelector('.welcomePage');
+const YTlogo = document.querySelector('.header__main_info');
 
 const homePageBtn = document.querySelector('.welcomePage_btn1');
 const channelPageBtn = document.querySelector('.welcomePage_btn2');
@@ -33,12 +34,48 @@ function toggleSidebar() {
    sidebar.classList.toggle('none');
 }
 
+
+function HP() {
+   YTlogo.classList.toggle('HP');
+}
+function CP() {
+   YTlogo.classList.toggle('CP');
+}
+function VP() {
+   YTlogo.classList.toggle('VP');
+}
+
+function backBtn() {
+   if (YTlogo.classList.contains("HP")) {
+      toggleHomePage();
+      toggleHeader();
+      toggleSidebar();
+      toggleWelcomePage();
+      HP();
+   } 
+   else if (YTlogo.classList.contains("CP")) {
+      toggleChannelPage();
+      toggleHeader();
+      toggleSidebar();
+      toggleWelcomePage();
+      CP();
+   } 
+   else if (YTlogo.classList.contains("VP")) {
+      toggleVideoPage();
+      toggleHeader();
+      toggleWelcomePage();
+      VP();
+   } 
+}
+
+
 homePageBtn.addEventListener('click', e => {
    e.preventDefault();
    toggleSidebar()
    toggleHeader();
    toggleHomePage();  
-   toggleWelcomePage()    
+   toggleWelcomePage(); 
+   HP();   
 });
 
 channelPageBtn.addEventListener('click', e => {
@@ -46,14 +83,21 @@ channelPageBtn.addEventListener('click', e => {
    toggleSidebar()
    toggleHeader();
    toggleChannelPage();  
-   toggleWelcomePage()    
+   toggleWelcomePage();
+   CP();
 });
 
 videoPageBtn.addEventListener('click', e => {
    e.preventDefault();
    toggleHeader();
    toggleVideoPage();    
-   toggleWelcomePage()  
+   toggleWelcomePage();
+   VP();  
+});
+
+YTlogo.addEventListener('click', e => {
+   e.preventDefault();
+   backBtn();
 });
 
 // 
