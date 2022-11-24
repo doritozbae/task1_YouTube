@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
-
 body{
    overflow: scroll;
    margin: 0;
@@ -48,32 +47,31 @@ h6 {
    margin: 5px 0px 0px 0px;
 }
 
-/* ------------- */
+
+/* WELCOME PAGE ------------------ */
 
 .welcomePage {
-   font-weight: bold;
    margin-top: 350px;
    text-align: center;
-
 }
 
 .welcomePage p {
    font-size: 30px;
+   font-weight: bold;
 } 
 
 .welcomePage__btn {
    cursor: pointer;
    position: relative;
    padding: 15px 25px;
-  border: solid #1a1a1a 2px;
-  border-radius: 20px;
-  margin: 10px;
-  box-shadow: 0px 6px 0px #1a1a1a;
+   border: solid #1a1a1a 2px;
+   border-radius: 20px;
+   margin: 10px;
+   box-shadow: 0px 6px 0px #1a1a1a;
 }
 
 .welcomePage__btn:hover {
    top: 2px;
-  /* box-shadow: 0px 6px 0px #1a1a1a; */
 }
 
 .welcomePage__btn:active {
@@ -86,19 +84,17 @@ h6 {
    margin: 0px 15px 0 15px;
 }
 
-/* ----------------- */
 
+/* HEADER ----------------- */
 
 .header {
    display: flex;
-   /* align-items: center; */
    flex-flow: row;
    justify-content: space-between;
    padding: 20px 32px;
 }
 
-.header__main, .header__menu {
-   /* border: 2px solid black; */
+.header__main, .header__menu, .header__main_search {
    display: flex;
    flex-flow: row;
 }
@@ -113,20 +109,14 @@ h6 {
    margin-right: 28px;
 }
 
-.header__main_search{
-   display: flex;
-   flex-flow: row;
-}
-
 .searchBar {
    width: 100%;
    display: flex;
    flex-direction: row;
    align-items: center;
- }
+}
  
- .searchInput {
-   /* position: relative; */
+.searchInput {
    width: 46.9em;
    height: 2.75rem;
    margin-left: 59px;
@@ -136,20 +126,20 @@ h6 {
    border-radius: 1.625rem;
    padding: 0 3.5rem 0 1.5rem;
    font-size: 1rem;
- }
+}
  
- .searchButton {
+.searchButton {
    width: 3.5rem;
    height: 2.8rem;
    margin-left: -3.5rem;
    background: none;
    border: none;
    outline: none;
- }
+}
  
- .searchButton:hover {
+.searchButton:hover {
    cursor: pointer;
- }
+}
 
 .header__menu {
    padding-right: 21px;
@@ -163,7 +153,7 @@ h6 {
    margin-right: 50px;
 }
 
-/* ----------- */
+/* SIDEBAR ----------- */
 
 .sidebar {
    width: 201px;
@@ -179,8 +169,6 @@ h6 {
 }
 
 .sidebar__buttons, .sidebar__footer, .sidebar__subscriptions, .sidebar__buttons_more {
-   /* border: 2px solid black;
-   margin: 10px; */
    display: flex;
    flex-flow: column;
 }
@@ -216,7 +204,6 @@ h6 {
    cursor: pointer;
    display: flex;
    align-items: center;
-   /* white-space: nowrap; */
 }
 
 .sidebar__subscriptions_channelimg {
@@ -232,7 +219,7 @@ h6 {
    margin-left: 2px;
 }
 
-/* -------------------- */
+/* CONTENT SECTION -------------------- */
 
 .contentSection {
    margin-top: 9px; 
@@ -241,7 +228,6 @@ h6 {
 
 .homePageSection {
    margin-top: 20px; 
-   /* padding-left: 33px; */
 }
 
 .homePageSection .homePageSection__recommended {
@@ -460,7 +446,7 @@ h6 {
    line-height: 23px;
 }
 
-/* ------------------------- */
+/* VIDEO PAGE ------------------------- */
 
 .videoPageSection, .videoPageSection__mainDescriptionInfo, .videoPageSection__mainDescription_more, .row{
    display: flex;
@@ -801,7 +787,6 @@ h6 {
       padding: 0 20px;
    }
 }
-
 
 @media (max-width: 519px) {
    .contentCard {
