@@ -2,6 +2,7 @@
 
 
 [Deploy link](https://doritozbae.github.io/task1_YouTube/). 
+
 [Figma reference](https://www.figma.com/file/JfnTCl9Ql46jC6PdY9k9YP/YouTube-Redesign-Concept?node-id=0%3A1&t=IBWTKnudH6OEMNew-0). 
 
 
