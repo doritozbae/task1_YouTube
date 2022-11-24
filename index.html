@@ -4,12 +4,13 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>YouTube</title>
+   <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.png">
    <link href="style.css" rel="stylesheet" type="text/css">
    
 </head>
 <body>
-   <header class="header ">
+   <header class="header none">
       <div class="header__main"> 
          <div class="header__main_info"> 
             <a class="header__main_info__menu hidden419">
@@ -389,7 +390,7 @@
             
          </section>
       
-         <section class="channelPageSection none">
+         <section class="channelPageSection none ">
             <div class="chanelPage__cover">
                <img class="chanelPage__coverimg" src="./assets/content/cover.png" alt="nav">
             </div>
@@ -398,12 +399,12 @@
                   <img class="chanelPage__mainimg" src="./assets/avatars/userpic.svg" alt="nav">
                   <div class="chanelPage__mainDecrip" >
                      <h4>Margaret Phelps</h4>
-                     <h6 class="">245k subscribed</h6>
+                     <h6 class="hideContent">245k subscribed</h6>
                   </div>
                </div>
                <div class="chanelPage__mainBtns">
                   <a class="header__menu_icons__ico">
-                     <img src="./assets/icons/header_video.svg" width="22" height="26" alt="nt">
+                     <!-- <img src="./assets/icons/header_video.svg" width="22" height="26" alt="nt"> -->
                   </a>
                   <button class="chanelPage__btn"> Subscribe 2.3m</button>
                </div>
@@ -414,27 +415,44 @@
                      <a class="chanelPage__content_menuItem underline">Home</a>
                      <a class="chanelPage__content_menuItem">Videos</a>
                      <a class="chanelPage__content_menuItem">Playlists</a>
-                     <a class="chanelPage__content_menuItem">Channels</a>
-                     <a class="chanelPage__content_menuItem">Discussion</a>
-                     <a class="chanelPage__content_menuItem">About </a>
+                     <a class="chanelPage__content_menuItem hidden419">Channels</a>
+                     <a class="chanelPage__content_menuItem hideContent">Discussion</a>
+                     <a class="chanelPage__content_menuItem hideContent">About </a>
                      <a class="chanelPage__content_menuItem">
-                        <img class="chanelPage__mainimg" src="./assets/icons/header_search.svg" alt="nav" width="18" height="18">
+                        <img class="chanelPage__mainimg hidden419" src="./assets/icons/header_search.svg" alt="nav" width="18" height="18">
                      </a>
                   </div>
-                  <div class="chanelPage__content_recVideo ">
+                  <div class="chanelPage__content_recVideo hideContent">
                      <div class="relative"> 
                         <img class="contentCard__img" src="./assets/content/1.png" width="540" height="250" alt="nav">
                         <p class="contentCard__imgTime">2:00</p>
                      </div>
-                     <div class="chanelPage__content_recVideo__desc "> 
+                     <div class="chanelPage__content_recVideo__desc  "> 
                         <h4> Choosing The Best Audio Player <br> Software For Your Computer </h4>
-                        <p> Your cheap internet-based banner advertising will become one of the sought for ads there are. Today, the world of Internet advertising is rapidly evolving beyond banner ads and intrusive pop-ups. Bayles A common medium for advertising on the Internet is the use of banner ads.   </p>
+                        <p class="hide"> Your cheap internet-based banner advertising will become one of the 
+                           <br>sought for ads there are. Today, the world of Internet advertising is rapidly 
+                           <br>evolving beyond banner ads and intrusive pop-ups. Bayles A common
+                           <br>medium for advertising on the Internet is the use of banner ads.   </p>
                         <h6> 11k views  ·  6 months ago </h6>
                      </div>
                   </div>
                </div>
-               <div class="chanelPage__content_channels ">
-                     <p>Recommended channel</p>
+               <div class="chanelPage__content_channels hideContent">
+                     <p>Recommended channels</p>
+                     <div class="chanelPage__content_channelsList ">
+                        <div class="channelsList__item">
+                           <img src="/assets/avatars/userpic.svg" alt="f">
+                           <p class="channelsList__font">Flora Benson</p>
+                        </div>
+                        <div class="channelsList__item">
+                           <img src="/assets/avatars/userpic.svg" alt="f">
+                           <p class="channelsList__font">Flora Benson</p>
+                        </div>
+                        <div class="channelsList__item">
+                           <img src="/assets/avatars/userpic.svg" alt="f">
+                           <p class="channelsList__font">Flora Benson</p>
+                        </div>
+                     </div>
 
                </div>
             </div>
@@ -536,7 +554,7 @@
             </div>
          </section>
       
-         <section class="videoPageSection ">
+         <section class="videoPageSection none">
             <div class="videoPageSection__main">
                <div class="videoPageSection__main_video">
                   <div class="video">
@@ -545,7 +563,7 @@
                   <div class="videoPageSection__mainDescription">
                      <h2 class="videoPageSection__font">Dude You Re Getting A Telescope</h2>
                      <div class="videoPageSection__mainDescriptionInfo">
-                        <h6>123k views</h6>   
+                        <p class="videoPageSection__h6font">123k views</p>   
                         <div class="videoPageSection__mainDescriptionInfo_btns"> 
                            <button class="mainDescriptionInfo_btn"> 
                               <img src="assets/icons/btn icons/like.svg" alt="1">
@@ -594,7 +612,7 @@
                   </div>
                </div>
 
-               <div class="videoPageSection__sidebar_cards">
+               <div class="videoPageSection__sidebar_cards ">
 
                   <div class="contentCard contentCard_video">
                      <div class="relative"> 
@@ -604,9 +622,9 @@
                      <p class="videoPageHeaderFont">Moon Gazing</p>
                      <div class="contentCard_description">
                         <div class="contentCard_description">
-                           <h6>123k views </h6>
+                           <p class="contentCard_descriptionFont">123k views </p>
                         </div>
-                        <h6>Dollie Blair</h6>
+                        <p class="contentCard_descriptionFont">Dollie Blair</p>
                      </div>
                   </div>
 
@@ -618,9 +636,9 @@
                      <p class="videoPageHeaderFont">Moon Gazing</p>
                      <div class="contentCard_description">
                         <div class="contentCard_description">
-                           <h6>123k views </h6>
+                           <p class="contentCard_descriptionFont">123k views </p>
                         </div>
-                        <h6>Dollie Blair</h6>
+                        <p class="contentCard_descriptionFont">Dollie Blair</p>
                      </div>
                   </div>
 
@@ -632,23 +650,9 @@
                      <p class="videoPageHeaderFont">Moon Gazing</p>
                      <div class="contentCard_description">
                         <div class="contentCard_description">
-                           <h6>123k views </h6>
+                           <p class="contentCard_descriptionFont">123k views </p>
                         </div>
-                        <h6>Dollie Blair</h6>
-                     </div>
-                  </div>
-
-                  <div class="contentCard contentCard_video">
-                     <div class="relative"> 
-                        <img class="contentCard__img" src="./assets/content/1.png" width="250" height="150" alt="nav">
-                        <p class="contentCard__imgTime">2:00</p>
-                     </div>
-                     <p class="videoPageHeaderFont">Moon Gazing</p>
-                     <div class="contentCard_description">
-                        <div class="contentCard_description">
-                           <h6>123k views </h6>
-                        </div>
-                        <h6>Dollie Blair</h6>
+                        <p class="contentCard_descriptionFont">Dollie Blair</p>
                      </div>
                   </div>
 
@@ -659,7 +663,7 @@
       </section>
    </main>
 
-   <div class="welcomePage none">
+   <div class="welcomePage ">
      <div  class="welcomePage__info"> 
        <p> YouTube layout task</p>
      </div>
